@@ -4,10 +4,6 @@ A data engineering + analytics project for a State Agriculture Board to monitor
 daily crop arrivals across Mandis, track prices against MSP, and understand
 how weather relates to supply and price.
 
-> **Note:** All data in `data/raw/` is **synthetically generated**
-> (`scripts/generate_raw_data.py`) to simulate realistic messiness. It is not
-> sourced from any government or real Mandi system.
-
 ## Tech Stack
 - **Python** (pandas, numpy) — ETL and standardization
 - **SQLite** — analytical database
