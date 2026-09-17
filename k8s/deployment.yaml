@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mandi-app
+  namespace: mandi
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mandi-app
+  template:
+    metadata:
+      labels:
+        app: mandi-app
+    spec:
+      containers:
+        - name: mandi-app
+          image: 556880009395.dkr.ecr.eu-north-1.amazonaws.com/mandi-to-market-optimizer:latest
+          ports:
+            - containerPort: 8501
+          env:
+            - name: OPENROUTER_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: openrouter-secret
+                  key: OPENROUTER_API_KEY
