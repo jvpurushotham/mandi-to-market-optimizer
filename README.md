@@ -6,26 +6,26 @@ Built for **TransOrg AgentIQ Datathon — Track 3: AgriTech**.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 [Live Application Link](http://ae65172f6181b40eaa68183327ce2efe-1222467219.eu-north-1.elb.amazonaws.com)
 
 ---
 
-## 💡 What It Does
+##  What It Does
 
-* 📊 Mandi arrivals and price analysis
-* 💰 Price vs MSP monitoring
-* 🌦️ Weather impact analysis
-* 🚚 Transport and supply-chain analysis
-* ⚠️ Risk, forecasts, and anomaly detection
-* 🤖 Natural-language AI Agricultural Assistant
-* 📈 Interactive Plotly visualizations
-* ☁️ Docker + AWS ECR + AWS EKS deployment
+*  Mandi arrivals and price analysis
+*  Price vs MSP monitoring
+*  Weather impact analysis
+*  Transport and supply-chain analysis
+*  Risk, forecasts, and anomaly detection
+*  Natural-language AI Agricultural Assistant
+*  Interactive Plotly visualizations
+*  Docker + AWS ECR + AWS EKS deployment
 
 ---
 
-## 🤖 AI Assistant
+##  AI Assistant
 
 Users can ask questions in natural language:
 
@@ -57,7 +57,7 @@ graph TD
 
 ---
 
-## 🧹 Data Pipeline
+##  Data Pipeline
 
 ### Processing Flow
 
@@ -85,7 +85,7 @@ graph TD
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 mandi-to-market-optimizer/
@@ -108,7 +108,7 @@ mandi-to-market-optimizer/
 
 ---
 
-## 🗄️ Database
+##  Database
 
 * **File:** `data/processed/mandi_market.db`
 * **Core Schemas:**
@@ -120,7 +120,7 @@ mandi-to-market-optimizer/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technologies |
 | :--- | :--- |
@@ -132,7 +132,7 @@ mandi-to-market-optimizer/
 
 ---
 
-## ▶️ Local Setup
+##  Local Setup
 
 ```bash
 python -m venv venv
@@ -152,7 +152,7 @@ export OPENROUTER_API_KEY="your_api_key_here"
 
 ---
 
-## 🐳 Docker
+##  Docker
 
 ```bash
 docker build -t mandi-to-market-optimizer .
@@ -161,7 +161,7 @@ docker run -p 8501:8501 mandi-to-market-optimizer
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 ### Infrastructure Pipeline
 
@@ -181,7 +181,7 @@ graph TD
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 pytest tests/
@@ -189,7 +189,7 @@ pytest tests/
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 * Current agricultural data is scoped to the project demo environment.
 * Weather readings are mapped regionally rather than at the exact GPS coordinate of every single mandi.
@@ -198,7 +198,7 @@ pytest tests/
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 * `docs/data_dictionary.md`
 * `docs/methodology.md`
@@ -206,12 +206,9 @@ pytest tests/
 
 ---
 
-## 👥 Contributors
+##  Contributors
 
 * **J V Purushotham** — Project development and data engineering
 * **Nandith Burla** — AI Assistant, LLM integration, Docker, Kubernetes, and AWS deployment
 
 ---
-
-**🏆 TransOrg AgentIQ Datathon — Track 3: AgriTech**  
-*Mandi-to-Market Supply Chain Optimizer*
